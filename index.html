@@ -334,79 +334,141 @@
     </section>
     </main>
   
-      <footer class="footer">
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
         
+      </svg>
+      <button class="modal_close" type="button" data-modal-close>
+        <svg class="svg_close">
+          <use href="./images/symbol-defs.svg#icon-close">
+              </use>
+                     </svg>
+            </button>
+             <form name="contact_form" class="main_form">
+               <p class="modal_title">Leave your contacts and we will call you back</p>
+  
+    <label class="label_modal">
+      <span class="modal_span">Name</span>
+      <div class="modal_input_icon">
+        
+        <input class="modal_input"  type="text"  name="user_name" required pattern="^[a-zA-zа-яА-Я]+$" minlength="2" title="ім'я"/>
+        <span class="modal_icon">
+          <svg class="svg_name">
+            <use href="./images/symbol-defs.svg#icon-name">
+              </use>
+                     </svg>
+     </span>
+      </div>
+  
+  </label>
+ <label  class="label_modal">
+   <span class="modal_span">Phone</span>
+   <div class="modal_input_icon">
+     <input class="modal_input" type="tel" name="user_phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx"/>
+     <span class="modal_icon">
+       <svg class="svg_phone">
+         <use href="./images/symbol-defs.svg#icon-phone">
+              </use>
+ </svg>
+     </span>
+      </div>
+</label>
+     <label  class="label_modal">
+      <span class="modal_span">Email</span>
+      <div class="modal_input_icon">
+        <input class="modal_input" type="email" name="user_email" />
+        <span class="modal_icon">
+          <svg class="svg_email">
+            <use href="./images/symbol-defs.svg#icon-email">
+              </use>
+ </svg>
+</div>
+ </label>
+     <label  class="label_modal">
+      <span class="modal_span">Coment</span>
+<textarea class="modal_textarea" name="user_message" placeholder="Text input"></textarea>
+  </label>
+  <input class="modal_checkbox visiuali_hiden" type="checkbox" id="user_privatepolicy" name="user_private_policy"/>
+  <label for="user_privatepolicy" class="label_modal_privatepolicy">
+    <span class="modal_privacy">I accept the terms and conditions of the <a href="index.html">Privacy Policy</a></span>
+  </label>
+  <button class="modal_button" type="submit"><p class="modal_button_text">Send<p></button>
+    
+  </form>
+</div>
+</div>
+<footer class="footer">
+  
 <div class="container">
 
 <div class="div_footer">
 
-  <div>
-        <a class="logo_footer" href="./index.html">Web<span class="logo_footer_span">Studio<span></a>
-          <p class="text_footer">
-            Increase the flow of customers and<br>
-            sales for your business with digital<br>
-            marketing & growth solutions.
-          </p>
+<div>
+  <a class="logo_footer" href="./index.html">Web<span class="logo_footer_span">Studio<span></a>
+    <p class="text_footer">
+      Increase the flow of customers and<br>
+      sales for your business with digital<br>
+      marketing & growth solutions.
+    </p>
 
-  </div>
-
-        
-<div class="div_social_media">
-          <h3 class="social_media">
-         Social media
-          </h3>
-    <ul class="footer_ul_social_icon">
-          <li class="footer_li_team_social"><a class="a_footer_social"href="#">
-            <svg class="footer_social">
-              <use href="./images/symbol-defs.svg#icon-instagram">
-              </use>
-            </svg>
-          </a>
-        </li>
-         <li class="footer_li_team_social"><a class="a_footer_social"href="#">
-            <svg class="footer_social">
-              <use href="./images/symbol-defs.svg#icon-facebook">
-              </use>
-            </svg>
-          </a>
-        </li>
-         <li class="footer_li_team_social"><a class="a_footer_social"href="#">
-            <svg class="footer_social">
-              <use href="./images/symbol-defs.svg#icon-twitter">
-              </use>
-            </svg>
-          </a>
-        </li>
-         <li class="footer_li_team_social"><a class="a_footer_social"href="#">
-            <svg class="footer_social">
-              <use href="./images/symbol-defs.svg#icon-linkedin">
-              </use>
-            </svg>
-          </a>
-        </li>
-
-        </ul>
-       
-      </div>
-      <div>
-        <h3></h3>
-        <input></input>
-          </div>
-     </div>
 </div>
-        </footer>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-        
-            </svg>
-            <button class="modal_close" type="button" data-modal-close>
-                     <svg class="svg_close">
-              <use href="./images/symbol-defs.svg#icon-close">
-              </use>
-                     </svg>
-            </button>
-          </div>
-        </div>
-        <script src="./js/modal.js"></script>
-  </body>
+
+  
+<div class="div_social_media">
+    <h3 class="social_media">
+   Social media
+    </h3>
+<ul class="footer_ul_social_icon">
+    <li class="footer_li_team_social"><a class="a_footer_social"href="#">
+      <svg class="footer_social">
+        <use href="./images/symbol-defs.svg#icon-instagram">
+        </use>
+      </svg>
+    </a>
+  </li>
+   <li class="footer_li_team_social"><a class="a_footer_social"href="#">
+      <svg class="footer_social">
+        <use href="./images/symbol-defs.svg#icon-facebook">
+        </use>
+      </svg>
+    </a>
+  </li>
+   <li class="footer_li_team_social"><a class="a_footer_social"href="#">
+      <svg class="footer_social">
+        <use href="./images/symbol-defs.svg#icon-twitter">
+        </use>
+      </svg>
+    </a>
+  </li>
+   <li class="footer_li_team_social"><a class="a_footer_social"href="#">
+      <svg class="footer_social">
+        <use href="./images/symbol-defs.svg#icon-linkedin">
+        </use>
+      </svg>
+    </a>
+  </li>
+
+  </ul>
+ 
+</div>
+
+
+<div>
+  <h3 class="h3_footer_subscribe">Subscribe</h3>
+  <label class="label_footer" for="" >
+<input type="email" name="email" class="input_footer" placeholder="E-mail"/>
+<button class="footer_button">
+ <p> Subscribe</p>
+  <svg class="svg_footer">
+  <use href="./images/symbol-defs.svg#icon-send">
+</use>
+</svg>
+</button>
+</label>
+</div>
+</div>
+</div>
+  </footer>
+<script src="./js/modal.js"></script>
+</body>
 </html>
